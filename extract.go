@@ -26,7 +26,4 @@ func extractPageData(html, pageURL string) PageData {
 		OutgoingLinks:  outgoingLinks,
 		ImageURLs:      images,
 	}
-
-	// blah := PageData{URL:https://crawler-test.com Heading:Test Title FirstParagraph:This is the first paragraph. OutgoingLinks:[https://crawler-test.com/link1] ImageURLs:[https://crawler-test.com/image1.jpg]}
-	// blah := PageData{URL:https://crawler-test.com Heading:Test Title FirstParagraph:This is the first paragraph. OutgoingLinks:[ https://crawler-test.com/link1] ImageURLs:[ https://crawler-test.com/image1.jpg]}
 }
